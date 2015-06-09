@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <%= image_tag @book.cover.url if @book.cover? %>
+      <div class="caption">
+        <h3><%= @book.name %></h3>
+        <p><%= @book.description %></p>
+        <p><%= link_to 'Edit', edit_book_path(@book), class:"btn btn-primary" %> <%= link_to 'Back', books_path, class:"btn btn-default" %></p>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The license for this application has not been set yet. Soon.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.0.0p643
 
-* System dependencies
+* System dependencies - NONE
 
-* Configuration
+* Configuration - NONE
 
-* Database creation
+* Database creation - posgreSQL
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Database initialization - seeds.rb
